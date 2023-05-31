@@ -1,0 +1,20 @@
+//Copyright (C)2014-2022 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.8.10
+//Part Number: GW1N-LV1QN48C6/I5
+//Device: GW1N-1
+//Created Time: Sun 05 21 00:51:51 2023
+
+IO_LOC "green_led" 16;
+IO_PORT "green_led" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "blue_led" 17;
+IO_PORT "blue_led" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "red_led" 18;
+IO_PORT "red_led" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "buton2" 14;
+IO_PORT "buton2" PULL_MODE=UP BANK_VCCIO=1.8;
+IO_LOC "buton1" 15;
+IO_PORT "buton1" PULL_MODE=UP BANK_VCCIO=1.8;
+IO_LOC "clock" 35;
+IO_PORT "clock" PULL_MODE=UP BANK_VCCIO=1.8;
